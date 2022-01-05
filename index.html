@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- HTML Meta Tags -->
+  <link rel="canonical" href="https://agusbarrio.github.io/FAQ-accordion-card/">
+  <title>FAQ accordion card</title>
+  <meta name="description" content="Tarjeta con acordeón de preguntas frecuentes usando HTML, CSS y Javascript">
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://agusbarrio.github.io/FAQ-accordion-card/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FAQ accordion card">
+  <meta property="og:description" content="Tarjeta con acordeón de preguntas frecuentes usando HTML, CSS y Javascript">
+  <meta property="og:image" content="https://agusbarrio.github.io/FAQ-accordion-card/images/desktop-design.jpg">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="agusbarrio.github.io">
+  <meta property="twitter:url" content="https://agusbarrio.github.io/FAQ-accordion-card/">
+  <meta name="twitter:title" content="FAQ accordion card">
+  <meta name="twitter:description" content="Tarjeta con acordeón de preguntas frecuentes usando HTML, CSS y Javascript">
+  <meta name="twitter:image" content="https://agusbarrio.github.io/FAQ-accordion-card/images/desktop-design.jpg">
+</head>
+
+<body>
+  <main>
+    <article class="accordion-card">
+      <img src="images/illustration-box-desktop.svg" alt="Illustration box">
+      <div class="accordion-header">
+        <img src="images/illustration-woman-online-mobile.svg" srcset="images/illustration-woman-online-mobile.svg 995w, 
+          images/illustration-woman-online-desktop.svg 1440w" alt="Illustration woman online">
+        <img src="images/bg-pattern-mobile.svg" srcset="images/bg-pattern-mobile.svg 995w, 
+          images/bg-pattern-desktop.svg 1440w" alt="background pattern">
+      </div>
+      <div class="accordion-items-container">
+        <h1>FAQ</h1>
+        <div class="accordion-item">
+          <h2 class="accordion-item-title">How many team members can I invite?</h2>
+          <img class="accordion-item-button" src="images/icon-arrow-down.svg" alt="Arrow down">
+          <p class="accordion-item-content">You can invite up to 2 additional users on the Free plan. There is no limit
+            on
+            team members for the Premium plan.</p>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <h2 class="accordion-item-title">What is the maximum file upload size?</h2>
+          <img class="accordion-item-button" src="images/icon-arrow-down.svg" alt="Arrow down">
+          <p class="accordion-item-content">No more than 2GB. All files in your account must fit your allotted storage
+            space.
+          </p>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <h2 class="accordion-item-title">How do I reset my password?</h2>
+          <img class="accordion-item-button" src="images/icon-arrow-down.svg" alt="Arrow down">
+          <p class="accordion-item-content">Click “Forgot password” from the login page or “Change password” from your
+            profile page.
+            A reset link will be emailed to you.</p>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <h2 class="accordion-item-title">Can I cancel my subscription?</h2>
+          <img class="accordion-item-button" src="images/icon-arrow-down.svg" alt="Arrow down">
+          <p class="accordion-item-content">Yes! Send us a message and we’ll process your request no questions asked.
+          </p>
+        </div>
+        <hr>
+        <div class="accordion-item">
+          <h2 class="accordion-item-title">Do you provide additional support?</h2>
+          <img class="accordion-item-button" src="images/icon-arrow-down.svg" alt="Arrow down">
+          <p class="accordion-item-content">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </div>
+        <hr>
+      </div>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/agust%C3%ADn-adolfo-barrio-eastman-819505202/"
+        target="_blank">Agustín
+        Barrio </a>.
+    </p>
+    <p>See the code in the <a href="https://github.com/agusbarrio/FAQ-accordion-card" target="_blank">GitHub
+        repository</a>.</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
